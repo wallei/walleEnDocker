@@ -1,111 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    /* Estilo para el menú de navegación */
-    .navbar {
-      background-color: #000;
-    }
-
-    /* Color de texto para los enlaces en el menú */
-    .navbar-nav .nav-link {
-      color: #fff;
-    }
-
-    .grey-box {
-      background-color: #f2f2f2; /* Color de fondo gris claro */
-      padding: 2px 4px; /* Ajuste del espacio alrededor del texto */
-      border-radius: 4px; /* Bordes redondeados */
-    }
-
-
-  </style>
-  <title>Docker con Volúmenes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
+<h2> walleEnDocker</h2>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Docker Pasos</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#paso1">Paso 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#paso2">Paso 2</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#paso3">Paso 3</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#paso4">Paso 4</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<div class="container mt-5">
-  <h1 id="inicio" class="mb-4 text-center">Primeros Pasos con Docker</h1>
-
-  <div class="card">
-    <div class="card-body">
-      <h2 id="paso1" class="card-title">Paso 1: Crear un contenedor Docker</h2>
-      <p class="card-text">
-        Utiliza el siguiente comando para crear un contenedor Docker con volúmenes:
-      </p>
-      <pre><code class="language-bash"><span class="grey-box">docker run -v /ruta/local:/ruta/contenedor -d nombre-imagen</span></code></pre>
-    </div>
-  </div>
   
-
-  <div class="card mt-4">
-    <div class="card-body">
-      <h2 id="paso2" class="card-title">Paso 2: Verificar volúmenes</h2>
-      <p class="card-text">
-        Puedes verificar los volúmenes montados utilizando el siguiente comando:
-      </p>
-      <pre><code class="language-bash"><span class="grey-box">docker inspect nombre-contenedor</span></code></pre>
-
-    </div>
-  </div>
-
-  <div class="card mt-4">
-    <div class="card-body">
-      <h2 id="paso3" class="card-title">Paso 3: Persistir datos</h2>
-      <p class="card-text">
-        Los datos en el volumen /ruta/local en tu máquina host se persistirán incluso si el contenedor se detiene o elimina.
-      </p>
-    </div>
-  </div>
-
-  <!-- Nueva tarjeta con más contenido -->
-  <div class="card mt-4">
-    <div class="card-body">
-      <h2 id="paso4" class="card-title">Paso 4: Crear Redes Docker</h2>
-      <p class="card-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus at leo gravida tempor vel nec erat.
-      </p>
-      <p class="card-text">
-        También puedes agregar más contenido aquí según tus necesidades.
-      </p>
-    </div>
-  </div>
-
-</div>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </body>
 </html>
